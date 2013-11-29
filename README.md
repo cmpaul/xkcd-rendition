@@ -12,8 +12,8 @@ Once Tomcat has started, log into Alfresco at http://localhost:8080/alfresco.
 To test the engine:
 
 1. Upload a text file to the repository
-2. Note its node ref
-3. Open a new browser window pointed to: http://localhost:8080/alfresco/service/xkcd?nodeRef={nodeRef}
+2. Copy its node ref
+3. Navigate to http://localhost:8080/alfresco/service/xkcd?nodeRef={nodeRef}, replacing {nodeRef} with the text file's node ref from step 2.
 
 The webscript at this URL will generate the rendition (if necessary) and return it as a downloadable file.
 
