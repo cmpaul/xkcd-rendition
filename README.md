@@ -1,5 +1,5 @@
-rendition
-=========
+xkcd-rendition
+==============
 
 Example Alfresco extension demonstrating deploying and accessing a custom rendition engine. 
 
