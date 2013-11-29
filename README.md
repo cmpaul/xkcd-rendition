@@ -19,4 +19,4 @@ To test the engine:
 
 The webscript at this URL will generate the rendition (if necessary) and return it as a downloadable file.
 
-A detailed description of the classes and configuration involved in this project will be posted to productivist.com.
+A detailed description of the classes and configuration involved in this project will be posted to [productivist.com](http://www.productivist.com/).
