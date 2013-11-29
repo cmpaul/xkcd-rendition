@@ -5,7 +5,7 @@ Example Alfresco extension demonstrating deploying and accessing a custom rendit
 
 This extension is built using the Alfresco Maven SDK. To test this extension, simply run:
 
-  mvn integration-test -Pamp-to-war
+ mvn integration-test -Pamp-to-war
 
 Once Tomcat has started, log into Alfresco at http://localhost:8080/alfresco.
 
