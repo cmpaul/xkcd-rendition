@@ -3,7 +3,7 @@ rendition
 
 Example Alfresco extension demonstrating deploying and accessing a custom rendition engine. The sample rendition engine defined in this extension will take any text file (text/plain) and create a rendition using the subsitution rules from the XKCD comic here: http://xkcd.com/1288/. 
 
-This extension is built using the Alfresco Maven SDK. To test this extension, simply run:
+This extension is built using the [Alfresco Maven SDK](https://artifacts.alfresco.com/nexus/content/groups/public/alfresco-lifecycle-aggregator/latest/archetypes/alfresco-amp-archetype/index.html). To test this extension, simply run:
 
     mvn integration-test -Pamp-to-war
 
