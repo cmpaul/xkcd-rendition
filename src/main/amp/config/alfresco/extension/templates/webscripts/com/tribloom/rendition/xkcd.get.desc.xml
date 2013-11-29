@@ -1,0 +1,6 @@
+<webscript>
+	<shortname>GET XKCD-ified Article</shortname>
+	<description>Streams back a rendition for a content item</description>
+	<url>/xkcd?nodeRef={nodeRef}</url>
+	<authentication>user</authentication>
+</webscript>

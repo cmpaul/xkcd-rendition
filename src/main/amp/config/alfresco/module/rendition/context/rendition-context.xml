@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING/DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+<beans>
+
+	<!-- Register the Rendition Engine -->
+	<bean id="xkcd.renderer" 
+		class="com.tribloom.rendition.executer.XKCDRenderingEngine" 
+		parent="baseRenderingAction" />
+
+	<!-- Register the webscript to retrieve the rendition -->
+	<bean id="webscript.com.tribloom.rendition.xkcd.get" 
+		class="com.tribloom.webscript.GetXKCDArticle"
+		parent="webscript">
+		<property name="serviceRegistry" ref="ServiceRegistry" />
+	</bean>
+
+</beans>
